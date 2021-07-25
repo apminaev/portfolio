@@ -281,13 +281,5 @@ body {
     .card{
       margin-bottom: 20px;
     }
-  } 
-  
-/* Animation */
-
-@keyframes star {
-  to {
-    transform: translateX(2000px);
-  }
 }
 
