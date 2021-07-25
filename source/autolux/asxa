@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header_bg">
+        <header>
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-9 col-md-4 col-lg-3 col-xl-3 ">
+                            <img class="img-fluid" src="img/header/logo.png" alt="logo">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-md-4 col-lg-3 col-xl-3"
+                            style="padding-top: 10px; width: 500px; height: 51px;">
+                            <div class="header_item-1">
+                                <h2>Сервис Volkswagen</h2>
+                                <p class="h6">ремонт VOLKSWAGEN в Новочеркасске</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-sm-9 col-md-4 col-lg-3 col-xl-3 d-md-none d-lg-block"
+                            style="padding-top: 10px; width: 228px; height: 51px;">
+                            <img src="img/header/lux.png" alt="">
+                        </div>
+
+                        <div class="col-12 col-sm-9 col-md-4 col-lg-3 col-xl-3" style="padding-top: 10px;"
+                            style="width: 239px; height: 34px;">
+                            <a href="Tel: +7 (988) 517-91-12" class="header_tel">
+                                <h2 style="margin: 0;">+7 (988) 517-91-12</h2>
+                            </a>
+                            <div class="number">
+                                Запись на ТО или ремонт
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <hr>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto ml-lg-auto mt-2 mt-lg-0">
+                        <a href="#main">
+                            <li class="menu_item ml-lg-5">О сервисе</li>
+                        </a>
+                        <a href="#shina">
+                            <li class="menu_item">Летняя резина</li>
+                        </a>
+                        <a href="#cont">
+                            <li class="menu_item">Контакты</li>
+                        </a>
+                    </ul>
+                    <div class="icon">
+                        <img class="img-fluid" src="img/header/icon.png" alt="">
+                    </div>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form> -->
+                </div>
+            </nav>
+        </div>
+        <div class="container fluid">
+            <div class="cars">
+                <img class="img-fluid" src="img/header/cars.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-9 col-9">
+                                <div class="card bg-dark text-black">
+                                    <img class="card-img" src="img/header/slider/slider-bg.png" alt="Card image">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title">Валерий Логинов</h5>
+                                        <p class="card-text"> Ваш персональный менеджер по марке VOLKSWAGEN. О ремонте
+                                            автомобилей VOLKSWAGEN я знаю все!
+                                            Позвоните мне сейчас и я сделаю вам
+                                            СКИДКУ 10% на все работы и материалы!</p>
+                                        <p class="card-text">Last updated 3 mins ago</p>
+                                    </div>
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title">Валерий Логинов</h5>
+                                        <p class="card-text"> Ваш персональный менеджер по марке VOLKSWAGEN. О ремонте
+                                            автомобилей VOLKSWAGEN я знаю все!
+                                            Позвоните мне сейчас и я сделаю вам
+                                            СКИДКУ 10% на все работы и материалы!</p>
+                                        <p class="card-text">Last updated 3 mins ago</p>
+                                    </div>
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title">Валерий Логинов</h5>
+                                        <p class="card-text"> Ваш персональный менеджер по марке VOLKSWAGEN. О ремонте
+                                            автомобилей VOLKSWAGEN я знаю все!
+                                            Позвоните мне сейчас и я сделаю вам
+                                            СКИДКУ 10% на все работы и материалы!</p>
+                                        <p class="card-text">Last updated 3 mins ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+    <div class="container">
+            <div class="nav-link">
+            <ul class="nav nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Персональный менеджер</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Сервисное то вашего Volkswagen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Сервис Volkswagen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Запчасти Volksvagen</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+            Квалифицированные специалисты,
+                прошедшие обучение по марке
+                VOLKSWAGEN
+                
+
+                Всегда в наличии шины, диски и 
+расходные материалы для ТО 
+вашего VOLKSVAGEN
+
+Оригинальные масла и жидкости,
+а также качественные  
+неоригинальные
+
+Оригинальные запчасти VOLKSVAGEN
+и качественные аналоги проверенные
+временем
+
+   <div class="container">
+            <div class="row col-12">
+                <div class="repair ">
+                    <h2>
+                        Ремонт автомобилей VOLKSVAGEN в Новочеркасске
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="repair_inner col">
+                    Квалифицированные специалисты,
+                    прошедшие обучение по марке
+                    VOLKSWAGEN
+                </div>
+            </div>
+        </div>

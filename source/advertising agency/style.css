@@ -1,0 +1,252 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;   
+}
+a{
+    text-decoration: none;
+}
+a.nav-link:hover {
+    color: #707070;
+}
+a.card-link:hover {
+    color: #a35757;
+}
+.container-fluid{
+    padding: 0px;
+}
+.logo{
+    height: 53px;
+    width: 71px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #2B2B2B;
+}
+.number{
+    text-align: right;
+    
+}
+.number_tel{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #2B2B2B;   
+}
+
+.number-bg-mini a{
+    color: #FFFFFF;
+}
+.number.number-bg-mini{
+    text-align: left;
+}
+.city{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+ 
+.navbar{
+    padding: 0;
+}
+.navbar-toggler{
+    background-image: url(img/roup.svg);
+    width: 48px;
+    height: 32px;
+    background-position: center;
+    border-radius:0px;
+    border: none;
+}
+.close-button{
+    background-image: url(img/Vector.svg);
+    background-repeat: no-repeat;
+    border: none;
+}
+.background{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+    color: rgba(53, 53, 53, 0.26);
+}
+.info{
+    color: #FFFFFF;
+    padding-top: 145px;
+    max-width: 570px;
+
+}
+.info-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+}
+.info-description{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.number-phone{
+    width: 217px;
+    height: 51px;
+    border: none;
+    box-shadow: inset 2px 2px 6px rgba(90, 90, 90, 0.65);
+}
+input[type="tel"]{
+    color: #8C8C8C;
+    padding: 16px 18px 17px 20px;
+}
+.number-submit{
+    background-color: #D51522;
+    width: 214px;
+    height: 51px;
+    box-shadow: 0px 2px 8px rgba(65, 65, 65, 0.25);
+    border: none;
+    color: #FFFFFF;
+    margin-left: 17px;
+
+}
+.news{
+    text-align: center;
+    margin-top: 84px;
+    margin-bottom: 50px;
+}
+.news-title h2{
+    margin-bottom: 62px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+    bottom: -115px;
+}
+.blog {
+    margin: 0 auto;
+    left: 21px;
+    top: 15px;
+
+}
+
+.blog .carousel-indicators li {
+    background: #707070;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 30px;
+}
+.carousel .carousel-indicators li {
+    border: none;
+}
+
+.blog .carousel-indicators .active {
+background: #D51522;
+}
+.news-inner-one .card {
+    border-radius: 0;
+    height: 243px;
+}
+
+.card .card-body{
+    padding: 34px 27px;
+    text-align: left;
+    position: relative;
+}
+.card-title{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #636363;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 11px;
+}
+.card-text{
+    color: #2B2B2B;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+ 
+}
+.card-link{
+    color: #D51522;
+    border: 1px solid #D51522;
+    padding: 14px 40px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+}
+a.card-link{
+    color: #D51522;
+}
+.carousel-inner{
+    margin-bottom: 105px;
+}
+.navbar-toggler .collapsed{
+    background-image: url(img/Vector.svg);
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    background-color: #211F2B;
+    height: 163px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar-footer-list {
+    padding-right: 134px;
+}
+.navbar-footer-list a{
+   color: #FFFFFF;
+   padding: 0;
+   margin-left: 33px;
+}
+.navbar-footer-list a.navlink:hover{
+    color: #beb6b6;
+ }
+
+@media (max-width: 992px){
+    #navbarTogglerDemo03.show{
+        box-shadow: none;
+    }
+    .navbar-footer-list {
+    padding-right: 0; 
+    }
+    .news-inner-one .card {
+    margin-bottom: 15px;
+    }
+    .number-bg-mini{
+    background-color: white;
+    text-align: right;
+    }
+ 
+    .number.number-bg-mini{
+    background-color:#211F2A;
+    text-align: right;
+    width: 100%;
+    }
+    .number-bg-mini .number_tel{
+        width: 100%;
+        color: white;
+     }
+     #navbarTogglerDemo03.show{
+        box-shadow: 0px 5px 16px rgba(90, 90, 90, 0.25);
+    }
+}
+@media (max-width: 768px){
+    .number-submit {
+        margin: 0;
+    }
+}
+@media (min-width: 992px){
+     .number-bg-mini .number_tel{
+        color: #2B2B2B;
+        ;
+    }
+}
